@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section#main{
+    box-shadow: 0 0 7px 0px rgba(136, 136, 136, 0.2);
+    width: 301px;
+    height: 465px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 1px;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+}
+.btn-whiteGray{
+    color: white;
+    background-color: #E4E4E4;
+    border: 1px solid #E4E4E4;
+    /* border-radius: 50%; */
+}
+.btn-darkGreen{
+    color: white;
+    background-color: #078D66;
+    border: 1px solid #078D66;
+    border-radius: 0px 0px 20px 0px;
+}
+.btn-green{
+    color: white;
+    background-color: #03AC7D;
+    border: 1px solid #03AC7D;
+}
+.btn-black{
+    color: #252525;
+    background-color: white;
+    border: 1px solid white;
+}
+.button{
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    margin: -1px;
+    cursor: pointer;
+}
+.button-0{
+    width: 105px;
+    height: 50px;
+    font-size: 20px;
+    /* margin: 2px 0px 2px 2px; */
+    border-radius: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+.textView{
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: -1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    border: 0px;
+    color: white;
+    background-color: #475862;
+    text-align: right;
+    font-size: 48px;
+}
+input:focus{
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+/* control window */
+.close{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #FF5452;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    right: 5px;
+    bottom: 5px;
+}
+.minzMaxz{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #FEBF1A;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    right: 5px;
+    bottom: 5px;
+}
+.hide{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #1EC736;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    right: 5px;
+    bottom: 5px;
+}

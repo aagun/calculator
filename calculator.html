@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="calc-style.css">
+    </head>
+    <body>
+        <!-- Calculator -->
+        <section id="main">
+            <div class="close"></div>
+            <div class="minzMaxz"></div>
+            <div class="hide"></div>
+            <!-- Start Screen -->
+            <div>
+                <form name="form">
+                    <input class="textView" name="layar">
+                </form>
+            </div><!-- End Screen -->
+            <!-- Start Keypad -->
+            <div>
+                <table>
+                    <tr>
+                        <td><input class="button btn-whiteGray" type="button" value="C" onclick="clr()"></td>
+                        <td><input class="button btn-whiteGray" type="button" value="D" onclick="backSpace('D')"></td>
+                        <td><input class="button btn-whiteGray" type="button" value="%" onclick="input('%')"></td>
+                        <td><input class="button btn-green" type="button" value="/" onclick="input('/')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button btn-black" type="button" value="7" onclick="input(7)"></td>
+                        <td><input class="button btn-black" type="button" value="8" onclick="input(8)"></td>
+                        <td><input class="button btn-black" type="button" value="9" onclick="input(9)"></td>
+                        <td><input class="button btn-green" type="button" value="x" onclick="input('x')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button btn-black" type="button" value="4" onclick="input(4)"></td>
+                        <td><input class="button btn-black" type="button" value="5" onclick="input(5)"></td>
+                        <td><input class="button btn-black" type="button" value="6" onclick="input(6)"></td>
+                        <td><input class="button btn-green" type="button" value="-" onclick="input('-')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button btn-black" type="button" value="1" onclick="input(1)"></td>
+                        <td><input class="button btn-black" type="button" value="2" onclick="input(2)"></td>
+                        <td><input class="button btn-black" type="button" value="3" onclick="input(3)"></td>
+                        <td><input class="button btn-green" type="button" value="+" onclick="input('+')"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input class="button-0 btn-black" type="button" value="0" onclick="input(0)"></td>
+                        <td><input class="button btn-black" type="button" value="." onclick="input('.')"></td>
+                        <td><input class="button btn-darkGreen" type="button" value="=" onclick="equal()"></td>
+                    </tr>
+                </table>
+            </div><!-- End Keypad -->
+        </section><!-- End Calculator -->
+        <script src="calc-main.js"></script>
+    </body>
+</html>
